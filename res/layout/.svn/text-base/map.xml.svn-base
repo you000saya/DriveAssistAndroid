@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextViewLocation" />
+
+    <TextView 
+	    android:id="@+id/textViewSpeed"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Speed"
+	    />
+    
+	<com.google.android.maps.MapView
+	    android:id="@+id/map_view1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:apiKey="0od2r1QunHuMqiERkyrugSKwDyA6rOrdI-HuEDQ" />
+	
+	 
+<!-- 	<ListView android:id="@+id/listViewMessage" -->
+<!-- 	    android:layout_width="fill_parent" -->
+<!-- 	    android:layout_height="50dp" -->
+<!-- 	    ></ListView> -->
+
+<!-- 	<LinearLayout -->
+<!--         android:orientation="horizontal" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         > -->
+        
+<!--         <EditText android:id="@+id/edit_text_out" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:layout_gravity="bottom" -->
+            
+<!--         /> -->
+<!--         <Button android:id="@+id/button_send" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="@string/send" -->
+<!--         /> -->
+        
+<!--         <Button android:id="@+id/button_atz" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="@string/atz" /> -->
+<!--     </LinearLayout> -->
+</LinearLayout>
